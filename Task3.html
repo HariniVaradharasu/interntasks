@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiplication Table</title>
+</head>
+<script>
+    let a = parseInt(prompt("Enter a number : "));
+    const num = parseInt(prompt("Enter a range : "));
+    if (!isNaN(a)) {
+        document.write('<h4><i>Multiplication table for ' + a + ' is:</i></h4>');
+        for (let i = 1; i <= num; i++) {
+            const result = a * i;
+            document.write(a + ' * ' + i + ' = ' + result + '<br>');
+        }
+    }
+    else {
+        console.log("Invalid number..");
+    }
+</script>
+</html>

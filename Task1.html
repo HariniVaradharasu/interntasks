@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            TASK 1
+        </title>
+        <body>
+           <script type="text/javascript">
+              var a = parseInt(prompt("Enter a value"));
+              var b = parseInt(prompt("Enter b value"));
+              var operation = parseInt(prompt("Press 1 for Addition, 2 for Subtraction, 3 for Multiplication, 4 for Division, 5 for Remainder"));
+              var sum, sub, mul, div, rem;
+        
+             switch(operation) {
+
+             case 1:
+                  sum = a + b;
+                  document.write("Addition: " + sum);
+                  break;
+             case 2:
+                  sub = a - b;
+                  document.write("Subtraction: " + sub);
+                  break;
+             case 3:
+                   mul = a * b;
+                  document.write("Multiplication: " + mul);
+                 break;
+             case 4:
+                 div = a / b;
+                 document.write("Division: " + div);
+                 break;
+             case 5:
+                 rem = a % b;
+                 document.write("Remainder: " + rem);
+                 break;
+             default:
+                 document.write("Invalid number");
+              }
+            </script>
+        </body>
+    </head>
+</html>

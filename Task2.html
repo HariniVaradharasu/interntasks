@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JAVASCRIPT ARRAY</title>
+</head>
+
+<body>
+    <h4>PUSH AND UNSHIFT IN JAVASCRIPT</h4>
+    <script type="text/javascript">
+        let fruits = ["Apple", "Strawberry", "Orange", "Grapes"];
+        let laptops = ["Hp", "Dell", "Lenovo"];
+        fruits.push("Banana");
+        document.write("The array of fruits are:<br>", fruits);
+        document.write("<br><br>");
+        var sizeFruits = fruits.length;
+        document.write("The size of the fruit array is:<br>", sizeFruits);
+        document.write("<br><br>");
+
+        document.write("The array of laptops are:<br>", laptops);
+        document.write("<br><br>");
+
+        var sizeLaptops = laptops.length;
+        document.write("The size of the fruit array is:<br>", sizeLaptops);
+        document.write("<br><br>");
+
+
+        laptops.push("Asus");
+        document.write("The array of laptops after <b>Push</b>:<br>", laptops);
+        document.write("<br><br>");
+        var sizeLaptops = laptops.length;
+        document.write("The size of the laptop array is:<br>", sizeLaptops);
+        document.write("<br><br>");
+        fruits.unshift(1, 2, 3);
+        document.write("The array of fruits after <b>Unshift</b>:<br>", fruits);
+        document.write("<br><br>");
+        var sizeFruitsAfterUnshift = fruits.length;
+        document.write("The size of the fruit array is:<br>", sizeFruitsAfterUnshift);
+    </script>
+</body>
+
+</html>
